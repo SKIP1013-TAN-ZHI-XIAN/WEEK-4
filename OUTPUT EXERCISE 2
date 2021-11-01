@@ -1,0 +1,18 @@
+Enter an integer : 
+22
+Enter double value : 
+33.33
+
+Using nextInt() : 22
+Using nextDouble() : 33.33
+
+Using nextInt() increment by 1 : 23
+Using nextDouble() decreament by 1 : 32.33
+
+Using nextInt() increment by 5 : 28
+Using nextDouble() decreament by 5 : 27.33
+
+Using nextInt() mod 10 : 8
+Using nextDouble() mod 10 : 7.33 
+
+4165331.8259815266
