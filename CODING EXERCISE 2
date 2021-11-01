@@ -1,0 +1,47 @@
+package myScanner;
+
+import java.util.Scanner;
+
+class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number;
+		double amount;
+		
+		Scanner scanMe = new Scanner(System.in);
+		
+		System.out.println("Enter an integer : ");
+		number = scanMe.nextInt();
+		
+		System.out.println("Enter double value : ");
+		amount = scanMe.nextDouble();
+		
+		System.out.println("\nUsing nextInt() : " + number);
+		System.out.println("Using nextDouble() : " + amount);
+		
+		number++;
+		amount--;
+	
+		System.out.println("\nUsing nextInt() increment by 1 : " + number);
+		System.out.println("Using nextDouble() decreament by 1 : " + amount);
+		
+		number+=5;
+		amount-=5;
+		
+		System.out.println("\nUsing nextInt() increment by 5 : " + number);
+		System.out.println("Using nextDouble() decreament by 5 : " + amount);
+		
+		number = number % 10;
+		amount = amount % 10;  // equlvalent to amount = amount / 10
+		
+		System.out.println("\nUsing nextInt() mod 10 : " + number);
+		System.out.printf("Using nextDouble() mod 10 : %.2f ", amount); 
+		System.out.println();
+		
+		double y = Math.pow(number, amount);
+		System.out.println();
+		System.out.println(y);
+	}
+
+}
